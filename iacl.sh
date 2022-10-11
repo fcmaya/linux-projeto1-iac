@@ -39,8 +39,3 @@ chmod 770 /sec
 chmod 777 /publico
 
 echo "Fim."
-
-
-
-useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt Senha123)
-
